@@ -8,7 +8,6 @@ public class A03 {
         int area; // 직사각형의 넓이  
         System.out.printf("Enter width of Rectangle > ");
         width = sc.nextInt();
-        sc.nextLine();
         System.out.printf("Enter height of Rectangle > ");
         height = sc.nextInt();
         area = width * height;
