@@ -8,6 +8,7 @@ public class A06 {
         int math; // 수학점수
         int total; // 총점
         double average; // 평균점수
+        
         System.out.printf("Enter points of Korean > ");
         kor = sc.nextInt();
         System.out.printf("Enter points of English > ");
