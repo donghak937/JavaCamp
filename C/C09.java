@@ -17,6 +17,5 @@ public class C09 {
 
         System.out.println("Your tax is " + tax);
 
-        sc.close();
     }
 }
