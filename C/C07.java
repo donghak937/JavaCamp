@@ -28,6 +28,5 @@ public class C07 {
 
         System.out.printf("File transfer time is %.1f\n", time);
 
-        sc.close();
     }
 }
