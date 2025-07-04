@@ -9,7 +9,7 @@ public class D04 {
         int birth_year;
         int age;
 
-        System.out.print("Enter number of family members > ");
+        System.out.printf("Enter number of family members > ");
         count_all = sc.nextInt();
 
         for (int i = 0; i < count_all; i++) {

@@ -12,7 +12,7 @@ public class D05 {
         int count5 = 0; // "일반적인 세로형 직사각형"의 개수
 
         while (true) {
-            System.out.print("Enter width, height of Rectangle > ");
+            System.out.printf("Enter width, height of Rectangle > ");
             width = sc.nextInt();
             height = sc.nextInt();
 

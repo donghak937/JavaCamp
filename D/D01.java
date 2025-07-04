@@ -8,7 +8,7 @@ public class D01 {
         int totalsum = 0;
         int i;
 
-        System.out.print("Enter a number > ");
+        System.out.printf("Enter a number > ");
         number = scanner.nextInt();
 
         if (number <= 1) System.out.println("Invalid input");

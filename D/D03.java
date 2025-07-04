@@ -10,7 +10,7 @@ public class D03 {
         double average;
 
         while (true) {
-            System.out.print("Enter a number from 0 to 100 > ");
+            System.out.printf("Enter a number from 0 to 100 > ");
             number = sc.nextInt();
 
             if (number < 0 || number > 100) break;

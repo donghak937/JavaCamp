@@ -9,7 +9,7 @@ public class D02 {
         int min_num = 100;
 
         while (true) {
-            System.out.print("Enter a number > ");
+            System.out.printf("Enter a number > ");
             number = sc.nextInt();
 
             if (number < 0 || number > 100) break;

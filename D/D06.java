@@ -14,7 +14,7 @@ public class D06 {
         int i;
 
         for (i = 0; i < 10; i++) {
-            System.out.print("Enter area of Apartment(m^2) > ");
+            System.out.printf("Enter area of Apartment(m^2) > ");
             m2_area = sc.nextDouble();
 
             pyung_area = m2_area / 3.305;
