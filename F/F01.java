@@ -4,12 +4,12 @@ public class F01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int[] num = new int[10];
-        int first = Integer.MIN_VALUE;
-        int second = Integer.MIN_VALUE;
-        int second_max_index = -1;
-        int newnum;
-        int i;
+        int[] num = new int[10]; // 10개의 숫자를 담을 리스트
+        int first; // 첫 번째로 큰 수
+        int second; // 두 번째로 큰 수
+        int second_max_index; // 두 번째로 큰 수의 인덱스
+        int newnum; // 숫자 입력을 위한 변수
+        int i; // 반복문을 위한 변수
 
         for (i = 0; i < 10; i++) {
             System.out.printf("Enter %dth number > ", i + 1);
