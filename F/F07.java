@@ -38,6 +38,5 @@ public class F07 {
         System.out.println();
         System.out.printf("Number of people living in this apartment is %d\n", total);
 
-        sc.close();
     }
 }
