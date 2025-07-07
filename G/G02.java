@@ -48,7 +48,7 @@ public class G02 {
         System.out.printf("Count of warm water is %d\n", count[1]);
         System.out.printf("Count of hot water is %d\n", count[2]);
         System.out.printf("Count of boiling water is %d\n", count[3]);
-        //인코딩 이슈로 한글 안나옴
+        //인코딩 이슈로 한글 안나옴  
 
     }
 }
