@@ -28,8 +28,6 @@ public class teamManager {
             System.out.printf("Admission fees of %dth team is %d\n",i+1, group.getSum());
             
         }
-
-
     }
 
     public void totalPrint(){

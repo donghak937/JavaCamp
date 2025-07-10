@@ -26,6 +26,7 @@ public class H08 {
             System.out.println("=> " + input.replaceAll(findStr, replaceStr));
             
         }
+        System.out.println("Exit Program");
                 
     }
 }
