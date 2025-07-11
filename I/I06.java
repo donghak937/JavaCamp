@@ -28,8 +28,8 @@ class Main {
     }
 
     byte GetRandom() {
-        Random rand = new Random();
-        int num = rand.nextInt(100) + 1;
+        Random r = new Random();
+        int num = r.nextInt(100) + 1;
 
         System.out.printf("Generated random number is %d\n", num);
 
