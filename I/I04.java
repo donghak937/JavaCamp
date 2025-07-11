@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Main {
-    Scanner s = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
         Main stepI = new Main();
@@ -26,13 +26,10 @@ class Main {
     int SelectMenu() {
         int[] price = {15000, 10000, 7000, 2000};
         System.out.print("1. pizza(15,000) 2. spaghetti(10,000) 3. salad(7,000) 4. drink(2,000) 5. exit > ");
-        int order = s.nextInt();
+        int order = sc.nextInt();
 
         if (order == 5) return -1;
-
-        if (order >= 1 && order <= 4)
-            return price[order - 1];
-        else
-            return 0; // 잘못된 입력 시 가격 없음 처리
+        if (order >= 1 && order <= 4) return price[order - 1];
+        else return 0;
     }
 }
