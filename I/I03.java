@@ -7,11 +7,11 @@ class Main {
     }
 
     void i03() {
-        Scanner s = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 10; i++) {
             System.out.print("Enter height(cm) and weight > ");
-            int height = s.nextInt();
-            int weight = s.nextInt();
+            int height = sc.nextInt();
+            int weight = sc.nextInt();
             AskBiman(height, weight);
         }
     }
