@@ -15,7 +15,7 @@ public class G05 {
 
             if (hour == 0 && minute == 0) break;
 
-            charge = ((hour * 60 + minute + 29) / 30) * 1000;
+            charge = ((hour * 60 + minute + 29) / 30) * 1000; //+ 29해서 올림 처리
 
             if (hour >= 5) charge = (int)(charge * 0.8);
             else if (hour >= 3) charge = (int)(charge * 0.9);

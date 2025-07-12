@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-class I02 {
+class Main {
     public static void main(String[] args) {
-        I02 stepI = new I02();
+        Main stepI = new Main();
         stepI.i02();
     }
 
