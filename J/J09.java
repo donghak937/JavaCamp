@@ -18,10 +18,11 @@ public class J09 {
     }
 
     public static int power(int n, int a) {
+        int half;
         if (a == 0) return 1;
         if (a == 1) return n;
 
-        int half = power(n, a / 2);
+        half = power(n, a / 2);
 
         if (a % 2 == 0) return half * half;
         else return half * half * n;
