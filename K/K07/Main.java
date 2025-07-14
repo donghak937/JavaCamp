@@ -66,4 +66,4 @@ class Main {
         double average;
         String grade;
     }
-}
+}//반복인가>>??
