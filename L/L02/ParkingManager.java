@@ -40,17 +40,21 @@ public class ParkingManager {
     }
 
     private long calculateFee(String entryTime) {
+        try {
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd HHmm");
+            Date entryDate = sdf.parse(entryTime);
+            Date now = new Date();
 
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd HHmm");
-        Date entryDate = sdf.parse(entryTime);
-        Date now = new Date();
+            long diffMinutes = (now.getTime() - entryDate.getTime()) / (1000 * 60);
+            if (diffMinutes <= 10) return 0;
 
-        long diffMinutes = (now.getTime() - entryDate.getTime()) / (1000 * 60);
-        if (diffMinutes <= 10) return 0;
-
-        return ((diffMinutes - 10) / 10 + 1) * 500;
-
+            return ((diffMinutes - 10) / 10 + 1) * 500;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return 0;
+        }
     }
+
 
     public void list() {
         System.out.println("================================================");
