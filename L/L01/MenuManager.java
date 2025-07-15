@@ -1,8 +1,3 @@
-package L.L01;
-
-public class MenuManager {
-    
-}
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -30,9 +25,8 @@ public class MenuManager {
             int price = sc.nextInt();
 
             menus.set(index, new Menu(name, origin, price));
-        } else {
-            System.out.println("Invalid number.");
-        }
+        } 
+        else System.out.println("Invalid number.");
     }
 
     public void removeMenu() {
@@ -42,9 +36,8 @@ public class MenuManager {
         if (index >= 0 && index < menus.size()) {
             menus.remove(index);
             System.out.println("Removed");
-        } else {
-            System.out.println("Invalid number.");
-        }
+        } 
+        else System.out.println("Invalid number.");
     }
 
     public void listMenu() {
